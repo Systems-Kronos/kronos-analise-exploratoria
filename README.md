@@ -1,4 +1,4 @@
-# 🤖 kronos-bi-view-feira
+# 📉 Análise Exploratória
 
 ## Índice
 
@@ -30,52 +30,22 @@ As principais tecnologias e bibliotecas utilizadas neste projeto são:
 
 ## ✨ Funcionalidades
 
-Leitura e tratamento de dados
-
-
-Separação por produto (FP, FV, Óleo) e seus índices.
-
-
-Tratamento de valores ausentes (NaN) e ajuste específico para setembro (apenas um dia de dados).
-
-
-Uso de dicionários para organizar dados brutos e totais.
-
-
-Análise visual (funções)
-
-
-Histogramas (gerador_histograma): identificação de padrões e repetições mensais.
-
-
-Óleo: dados tendenciosos ao zero.
-
-
-FP: dados padronizados e próximos.
-
-
-FV: dados com maiores índices registrados.
-
-
-Boxplots (gerador_boxplot): detecção de valores fora do padrão.
-
-
-Óleo: padrão consistente até julho.
-
-
-FP: valores extremamente consistentes.
-
-
-FV: mudanças no padrão até junho.
-
-
+Leitura e tratamento de dados:
+- Separação por produto (FP, FV, Óleo) e seus índices.
+- Tratamento de valores ausentes (NaN) e ajuste específico para setembro (apenas um dia de dados).
+- Uso de dicionários para organizar dados brutos e totais.
+Análise visual (funções):
+ - Histogramas (gerador_histograma): identificação de padrões e repetições mensais.
+    - Óleo: dados tendenciosos ao zero.
+    - FP: dados padronizados e próximos.
+    - FV: dados com maiores índices registrados.
+ - Boxplots (gerador_boxplot): detecção de valores fora do padrão.
+    - Óleo: padrão consistente até julho.
+    - FP: valores extremamente consistentes.
+    - FV: mudanças no padrão até junho.
 Otimização
-
-
-Multithreading para acelerar a leitura e plotagem dos dados.
-
-
-Conversão de dataframes para formato vertical (melt) para compatibilidade com seaborn.
+  - Multithreading para acelerar a leitura e plotagem dos dados.
+  - Conversão de dataframes para formato vertical (melt) para compatibilidade com seaborn.
 
 
 </br>
